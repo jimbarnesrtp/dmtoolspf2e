@@ -6,6 +6,3 @@ class AncestryLanguage(ABC):
     def generate_name(self):
         pass
     
-    @abstractmethod
-    def save_name(self, name, status):
-        pass
